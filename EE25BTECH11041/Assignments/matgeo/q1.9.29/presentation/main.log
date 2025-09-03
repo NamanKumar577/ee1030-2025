@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.25)  3 SEP 2025 09:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.25)  3 SEP 2025 10:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1872,7 +1872,7 @@ File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
  (./main.vrb) [17
 
 ]
-<figs/distance_plot.png, id=518, 722.7pt x 722.7pt>
+<figs/distance_plot.png, id=521, 722.7pt x 722.7pt>
 File: figs/distance_plot.png Graphic file (type png)
 <use figs/distance_plot.png>
 Package pdftex.def Info: figs/distance_plot.png  used on input line 317.
@@ -1925,9 +1925,9 @@ ublic/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (18 pages, 247919 bytes).
+Output written on main.pdf (18 pages, 247935 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
+ 613 PDF objects out of 1000 (max. 8388607)
  518 compressed objects within 6 object streams
  38 named destinations out of 1000 (max. 500000)
  84 words of extra memory for PDF output out of 10000 (max. 10000000)
