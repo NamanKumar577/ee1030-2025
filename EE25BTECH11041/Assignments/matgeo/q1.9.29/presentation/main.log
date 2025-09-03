@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.25)  3 SEP 2025 10:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.25)  3 SEP 2025 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1515,13 +1515,13 @@ LaTeX Font Info:    Trying to load font information for OT1+lmss on input line
 73.
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 73.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 73.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1618,6 +1618,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 73.
+
+(./main.out) (./main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
 
@@ -1693,8 +1695,7 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count412
-
-No file main.nav.
+ (./main.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 80.
@@ -1775,16 +1776,13 @@ dvips/lm/lm-mathsy.enc}] [3
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] [4
 
-]
-
-LaTeX Warning: Reference `1' on page 5 undefined on input line 113.
-
-[5
+] [5
 
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb
+
+(./main.vrb
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
 2.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
@@ -1872,7 +1870,7 @@ File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
  (./main.vrb) [17
 
 ]
-<figs/distance_plot.png, id=521, 722.7pt x 722.7pt>
+<figs/distance_plot.png, id=519, 722.7pt x 722.7pt>
 File: figs/distance_plot.png Graphic file (type png)
 <use figs/distance_plot.png>
 Package pdftex.def Info: figs/distance_plot.png  used on input line 317.
@@ -1894,27 +1892,14 @@ Package pdftex.def Info: figs/distance_plot.png  used on input line 317.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 57173 strings out of 474222
- 1358562 string characters out of 5748733
+ 57225 strings out of 474222
+ 1359020 string characters out of 5748733
  2375016 words of memory out of 5000000
- 78393 multiletter control sequences out of 15000+600000
+ 78437 multiletter control sequences out of 15000+600000
  599736 words of font info for 78 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  128i,15n,123p,1172b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1925,9 +1910,9 @@ ublic/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (18 pages, 247935 bytes).
+Output written on main.pdf (18 pages, 247870 bytes).
 PDF statistics:
- 613 PDF objects out of 1000 (max. 8388607)
+ 610 PDF objects out of 1000 (max. 8388607)
  518 compressed objects within 6 object streams
  38 named destinations out of 1000 (max. 500000)
  84 words of extra memory for PDF output out of 10000 (max. 10000000)
