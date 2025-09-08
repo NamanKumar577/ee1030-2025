@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.25)  7 SEP 2025 21:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.25)  8 SEP 2025 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1779,16 +1779,20 @@ LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}] [4
 
-] [5
+]
+Overfull \vbox (0.385pt too high) detected at line 141
+ []
+
+[5
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
 <figs/vectors.png, id=203, 433.62pt x 433.62pt>
 File: figs/vectors.png Graphic file (type png)
 <use figs/vectors.png>
-Package pdftex.def Info: figs/vectors.png  used on input line 146.
+Package pdftex.def Info: figs/vectors.png  used on input line 149.
 (pdftex.def)             Requested size: 205.37926pt x 205.38277pt.
 
-Overfull \vbox (13.85645pt too high) detected at line 146
+Overfull \vbox (13.85645pt too high) detected at line 149
  []
 
 [6
@@ -1897,7 +1901,7 @@ l.3 # Label θ
                at midpoint of arc
 ? 
 )
-Overfull \vbox (1.72923pt too high) detected at line 322
+Overfull \vbox (1.72923pt too high) detected at line 325
  []
 
 [16
@@ -1935,7 +1939,7 @@ ublic/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (16 pages, 283914 bytes).
+Output written on main.pdf (16 pages, 284053 bytes).
 PDF statistics:
  580 PDF objects out of 1000 (max. 8388607)
  477 compressed objects within 5 object streams
