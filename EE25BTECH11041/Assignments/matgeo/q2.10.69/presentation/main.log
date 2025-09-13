@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.25)  12 SEP 2025 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.25)  13 SEP 2025 11:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1786,7 +1786,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
 <figs/figure.png, id=181, 496.9767pt x 380.1402pt>
 File: figs/figure.png Graphic file (type png)
 <use figs/figure.png>
-Package pdftex.def Info: figs/figure.png  used on input line 140.
+Package pdftex.def Info: figs/figure.png  used on input line 139.
 (pdftex.def)             Requested size: 205.37926pt x 157.09398pt.
  [6
 
@@ -1850,7 +1850,7 @@ ublic/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (9 pages, 284779 bytes).
+Output written on main.pdf (9 pages, 284697 bytes).
 PDF statistics:
  354 PDF objects out of 1000 (max. 8388607)
  292 compressed objects within 3 object streams

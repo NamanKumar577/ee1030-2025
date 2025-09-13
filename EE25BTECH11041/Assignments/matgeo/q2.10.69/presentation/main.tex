@@ -86,13 +86,13 @@
 Determine the value of c so that for all real x, the vector $cx\hat{\imath}-6\hat{\jmath}-3\hat{k}$ and $x\hat{\imath}+2\hat{\jmath}+2cx\hat{k}$ make an obtuse angle with each other.
 \end{frame}
 \begin{frame}{Solution}
-    We know, Dot of two vectors
+    We know, Inner product of two vectors
 \begin{align}
-    \vec{A}\cdot\vec{B}=\vec{A}^T\vec{B}=\lVert\vec{A}\rVert\lVert\vec{B}\rVert \cos{\theta}
+    \vec{A}^T\vec{B}=\lVert\vec{A}\rVert\lVert\vec{B}\rVert \cos{\theta}
 \end{align}
 for obtuse angle between any two vectors
 \begin{align}
-\cos{\theta}<0\text{ or } \vec{A}\cdot\vec{B}<0
+\cos{\theta}<0\text{ or } \vec{A}^T\vec{B}<0
 \end{align}
 Given Vectors
 \begin{align}
@@ -103,7 +103,6 @@ Given Vectors
 \begin{frame}{Solution}
 Now using these condition on given vectors
 \begin{align}
-\vec{A}\cdot\vec{B}<0\\
 \vec{A}^T\vec{B}<0\\
 \begin{pmatrix}cx&-6&-3\end{pmatrix}\begin{pmatrix}x\\2\\2cx\end{pmatrix}<0\\
 cx^2-12-6cx<0\text{ ( quadratic in x)} \label{quad}
