@@ -1,0 +1,17 @@
+\frametitle{Direct Python 2}
+\begin{lstlisting}
+arc = Arc(center, 2 * radius, 2 * radius, theta1=start_angle, theta2=end_angle,
+          edgecolor='orange', linewidth=1)
+
+ax.add_patch(arc)
+ax.add_patch(arc)
+
+ax.set_aspect('equal', adjustable='box')
+ax.set_xlim(0, 5)
+ax.set_ylim(0, 5)
+plt.legend()
+plt.grid()
+plt.savefig("fig2.png", dpi=300)
+plt.show()
+
+\end{lstlisting}
