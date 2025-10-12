@@ -1,0 +1,11 @@
+\frametitle{Python code with shared object}
+\begin{lstlisting}
+# Format plot
+plt.gca().set_aspect('equal', adjustable='box')
+plt.grid(True)
+plt.legend()
+plt.title('Circles C1 & C2 with Tangent Lines')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.show()
+\end{lstlisting}
