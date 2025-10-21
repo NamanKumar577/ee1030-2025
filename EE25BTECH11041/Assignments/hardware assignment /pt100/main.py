@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 
 # Load training data
 A = np.loadtxt('data.txt')
-T_train = A[:, 0]
-Y_train = A[:, 1]
+T_train = A[:, 1]
+Y_train = A[:, 0]
 
 # Prepare design matrix for least squares (quadratic model)
 X_train = np.column_stack((np.ones(A.shape[0]), T_train, T_train**2))
@@ -19,7 +19,7 @@ plt.figure()
 plt.plot(T_train, X_train @ theta, label='Fitted Model')
 plt.plot(T_train, Y_train, 'k.', label='Training Data')
 plt.grid()
-plt.ylabel('Output Voltage (V)')
+plt.ylabel('Outp:ut Voltage (V)')
 plt.xlabel('Temperature ($^{\circ}$C)')
 plt.legend()
 plt.tight_layout()
@@ -30,8 +30,8 @@ plt.close()
 
 # Load validation data
 B = np.loadtxt('validation_data.txt')
-T_valid = B[:, 0]
-Y_valid = B[:, 1]
+T_valid = B[:, 1]
+Y_valid = B[:, 0]
 
 # Prepare design matrix for validation
 X_valid = np.column_stack((np.ones(B.shape[0]), T_valid, T_valid**2))
